@@ -1,0 +1,49 @@
+
+/* GLOBAL RULESETS: */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    padding: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SITE HEADER RULESETS: */
+header {
+    width: 80%;
+    height: 15rem;
+    border: 0.1rem solid red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header #hero-banner {
+    width: 80%;
+}
+nav ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: '-> ';
+}
+nav li, nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+}
+nav li {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
